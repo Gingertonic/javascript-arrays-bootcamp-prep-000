@@ -30,3 +30,8 @@ function destructivelyRemoveElementFromEndOfArray(arr, toRemove){
   arr.pop(toRemove);
   return arr;
 }
+
+function removeElementFromEndOfArray(arr, toRemove){
+  arr.pop(toRemove);
+  return arr;
+}
