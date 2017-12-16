@@ -8,15 +8,18 @@ function addElementToBeginningOfArray(arr, toAdd) {
 
 function  destructivelyAddElementToBeginningOfArray(arr, toAdd) {
   arr.unshift(toAdd);
+  return arr;
 }
 
 function addElementToEndOfArray(arr, toAdd) {
   var newArray = [ ...arr];
   newArray.push(toAdd)
+  return newArray;
 }
 
 function  destructivelyAddElementToEndOfArray(arr, toAdd) {
   arr.push(toAdd);
+  return arr;
 }
 
 function accessElementInArray(arr, i){
