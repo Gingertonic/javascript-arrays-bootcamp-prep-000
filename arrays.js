@@ -35,3 +35,15 @@ function removeElementFromEndOfArray(arr, toRemove){
   arr.pop(toRemove);
   return arr;
 }
+
+function destructivelyRemoveElementFromBeginningOfArray(arr, toRemove){
+  arr.shift(toRemove);
+  return arr;
+}
+
+function removeElementFromBeginningOfArray(arr, toRemove){
+  var newArray = [ ...arr];
+  newArray.shift(toRemove);
+  return arr;
+}
+
