@@ -25,3 +25,8 @@ function  destructivelyAddElementToEndOfArray(arr, toAdd) {
 function accessElementInArray(arr, i){
   return arr[i];
 }
+
+function destructivelyRemoveElementFromEndOfArray(arr, toRemove){
+  arr.pop(toRemove);
+  return arr;
+}
