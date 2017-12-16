@@ -31,18 +31,18 @@ function destructivelyRemoveElementFromEndOfArray(arr, toRemove){
   return arr;
 }
 
-function removeElementFromEndOfArray(arr, toRemove){
-  arr.pop(toRemove);
+function removeElementFromEndOfArray(arr){
+  arr.pop();
   return arr;
 }
 
-function destructivelyRemoveElementFromBeginningOfArray(arr, toRemove){
-  arr.shift(toRemove);
+function destructivelyRemoveElementFromBeginningOfArray(arr){
+  arr.shift();
   return arr;
 }
 
-function removeElementFromBeginningOfArray(arr, toRemove){
+function removeElementFromBeginningOfArray(arr){
   var newArray = [ ...arr];
-  newArray.shift(toRemove);
+  newArray.shift();
   return arr;
 }
