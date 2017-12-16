@@ -46,4 +46,3 @@ function removeElementFromBeginningOfArray(arr, toRemove){
   newArray.shift(toRemove);
   return arr;
 }
-
