@@ -5,20 +5,20 @@ function addElementToBeginningOfArray(arr, toAdd) {
   newArray.unshift(toAdd);
   return newArray;
 }
-//
-// function  destructivelyAddElementToBeginningOfArray(arr, toAdd) {
-//   arr.unshift(toAdd);
-// }
-//
-// function addElementToEndOfArray(arr, toAdd) {
-//   var newArray = [ ...arr];
-//   newArray.push(toAdd)
-// }
-//
-// function  destructivelyAddElementToEndOfArray(arr, toAdd) {
-//   arr.push(toAdd);
-// }
-//
-// function accessElementInArray(arr, i){
-//   return arr[i];
-// }
+
+function  destructivelyAddElementToBeginningOfArray(arr, toAdd) {
+  arr.unshift(toAdd);
+}
+
+function addElementToEndOfArray(arr, toAdd) {
+  var newArray = [ ...arr];
+  newArray.push(toAdd)
+}
+
+function  destructivelyAddElementToEndOfArray(arr, toAdd) {
+  arr.push(toAdd);
+}
+
+function accessElementInArray(arr, i){
+  return arr[i];
+}
